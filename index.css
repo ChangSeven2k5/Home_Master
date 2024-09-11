@@ -1,0 +1,51 @@
+/* HEADER */
+.header-menu {
+    display: flex;
+    height: 60px;
+    justify-content: space-around;
+}
+img {
+    width: 140px;
+    object-fit: cover;
+    vertical-align: middle;
+    border-style: none;
+    margin-top: 20px;
+}
+ .hm-menu-icon, .hm-icon {
+    margin-top: 20px;
+ }
+.hm-menu ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.hm-menu li {
+    width: 85px;
+    height: 30px;
+    margin: 0 10px;
+    position: relative;
+}
+.hm-menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+.hm-menu a:hover{
+    color: red;
+}
+.box {
+    width: 12px;
+    height: 12px;
+    background-color: red;
+    font-size: 7px;
+    position: absolute;
+    top: 24px;
+    right: 33px;
+    border-radius: 50%;
+    border: none;
+}
+p{
+    margin-top: 2px;
+    text-align: center;
+}
